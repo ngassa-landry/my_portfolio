@@ -1,17 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Projects from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
+import Skills from './pages/Skills.jsx';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+  },
+  {
+    path: '/about',
+    element: <About />,
+  },
+  {
+    path: '/projects',
+    element: <Projects />,
+  },
+  {
+    path: '/skills',
+    element: <Skills />,
+  },
+  {
+    path: '/contact',
+    element: <Contact />,
+  }
+]);
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      What's up?
-      
-    </>
-  )
+  return <RouterProvider router={router} /> 
 }
 
 export default App
