@@ -6,6 +6,7 @@ import { FaArrowRight } from 'react-icons/fa';
 const Footer =()=>{
     return (
         <footer>
+            <div className="point"></div>
             <p>Based in Douala, Cameroon</p>
             <div>
                 <div className="social-links">
