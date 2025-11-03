@@ -5,11 +5,11 @@ import Footer from "../components/Footer";
 
 const Projects = () => {
     return (
-        <>
+        <div class="projects-page flex h-screen">
             <Navigation />
             <div className="body-part">
                 <Header />
-                <section id="projects">
+                <section id="projects" className="container">
                     <div className="project-item">
                         <div className="project-presentation">
                             <h3>Project-name</h3>
@@ -37,7 +37,7 @@ const Projects = () => {
                 </section>
                 <Footer />
             </div>
-        </>
+        </div>
     );
 };
 

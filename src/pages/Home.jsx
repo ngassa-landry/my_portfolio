@@ -5,13 +5,13 @@ import Navigation from '../components/Navigation';
 
 const Home = () => {
   return (
-    <>
+    <div className='home-page flex h-screen'>
       <Navigation />
       <div className='body-part'>
         <Header />
-        <section id="home">
+        <section id="home" className='container'>
           <p>HOME</p>
-          <h1>Hi, I'm NGASSA, a JAVASCRIPT developer</h1>
+          <h1>Hi, I'm NGASSA, a <span>JAVASCRIPT</span> fullstack developer</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing 
             elit. Nihil quaerat repellendus cumque in reiciendis 
@@ -22,7 +22,7 @@ const Home = () => {
         </section>
         <Footer />
       </div>
-    </>
+    </div>
   );
 };
 

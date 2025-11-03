@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+    --font-global: 'PP Object Sans', sans-serif;
+}
+
+body{
+    font-family: var(--font-global);
+    font-size: 13px;
+}
+
+@layer components{
+    .action-bar{
+        @apply w-full flex items-center justify-between px-1 bg-[#111214] text-white p-1 border-white rounded-t-[3px]
+    }
+
+    .window{
+        @apply w-fit h-fit bg-[#1E1E1E] rounded-[5px] border border-white
+    }
+
+    .body-part{
+        @apply w-full h-full
+    }
+
+    .container{
+        @apply h-[calc(100vh-40px)] flex flex-col items-center justify-center text-center gap-4 px-4
+    }
+}

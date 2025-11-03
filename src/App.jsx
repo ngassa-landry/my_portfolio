@@ -5,6 +5,7 @@ import Projects from './pages/Projects.jsx';
 import Contact from './pages/Contact.jsx';
 import Skills from './pages/Skills.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import './App.css';
 
 const router = createBrowserRouter([
   {

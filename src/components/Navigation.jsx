@@ -6,17 +6,15 @@ import { TbMessage } from 'react-icons/tb';
 
 const Navigation =()=>{
     return(
-        <>
-            <nav>
-                <ul>
-                    <li><BiHomeSmile /></li>
-                    <li><FaRegUser /></li>
-                    <li><AiOutlineFundProjectionScreen /></li>
-                    <li><BsLightningCharge /></li>
-                    <li><TbMessage /></li>
-                </ul>
-            </nav>
-        </>
+        <nav className='h-full bg-blue-500 p-1 border-1 border-white'> 
+            <ul className='h-full flex flex-col items-center justify-center gap-2'>
+                <li><BiHomeSmile /></li>
+                <li><FaRegUser /></li>
+                <li><AiOutlineFundProjectionScreen /></li>
+                <li><BsLightningCharge /></li>
+                <li><TbMessage /></li>
+            </ul>
+        </nav>
     );
 }
 
