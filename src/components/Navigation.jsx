@@ -6,7 +6,7 @@ import { TbMessage } from 'react-icons/tb';
 
 const Navigation =()=>{
     return(
-        <nav className='h-full bg-blue-500 p-1 border-1 border-white'> 
+        <nav className='fixed left-0 top-0 h-full p-1 border-1 border-white'> 
             <ul className='h-full flex flex-col items-center justify-center gap-2'>
                 <li><BiHomeSmile /></li>
                 <li><FaRegUser /></li>

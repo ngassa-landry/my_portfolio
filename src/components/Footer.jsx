@@ -5,7 +5,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 const Footer =()=>{
     return (
-        <footer className='h-[20px] bg-amber-300 flex justify-between items-center px-1 border-1'>
+        <footer className='fixed bottom-0 left-0 w-full h-[20px] flex justify-between items-center px-1 border-white border-1'>
             <div className="point bg-white w-1 h-1 rounded-[50%]"></div>
             <p>Based in Douala, Cameroon</p>
             <div className='flex items-center gap-3'>
