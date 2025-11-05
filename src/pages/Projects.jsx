@@ -9,14 +9,19 @@ const Projects = () => {
             <Navigation />
             <div className="body-part">
                 <Header />
-                <h1 className="text-center">Projects</h1>
+                <h1 className="text-center my-10">Projects</h1>
                 <section id="projects" className="projects-container">
                     <div className="project-item">
                         <div className="project-img-part">
                             <img className="project-img" src="src\images&files\logo_dschang.jpg" alt="" />
                         </div>
                         <div className="project-description-part">    
-                            <h3 className="project-title">Project 1 Title</h3>
+                            <h3 className="project-title">Project 1 Title <span>2025</span></h3>
+                            <div className="project-skills">
+                                <span className="skill-tag">React</span>
+                                <span className="skill-tag">JavaScript</span>
+                                <span className="skill-tag">CSS</span>
+                            </div>
                             <p className="project-description"> 
                                 Brief description of the project, technologies used, and key features.
                                 Brief description of the project, technologies used, and key features.
@@ -30,7 +35,12 @@ const Projects = () => {
                             <img className="project-img" src="src\images&files\logo_dschang.jpg" alt="" />
                         </div>
                         <div className="project-description-part">    
-                            <h3 className="project-title">Project 1 Title</h3>
+                            <h3 className="project-title">Project 1 Title <span>2025</span></h3>
+                            <div className="project-skills">
+                                <span className="skill-tag">React</span>
+                                <span className="skill-tag">JavaScript</span>
+                                <span className="skill-tag">CSS</span>
+                            </div>
                             <p className="project-description"> 
                                 Brief description of the project, technologies used, and key features.
                                 Brief description of the project, technologies used, and key features.
@@ -44,35 +54,12 @@ const Projects = () => {
                             <img className="project-img" src="src\images&files\logo_dschang.jpg" alt="" />
                         </div>
                         <div className="project-description-part">    
-                            <h3 className="project-title">Project 1 Title</h3>
-                            <p className="project-description"> 
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="project-item">
-                        <div className="project-img-part">
-                            <img className="project-img" src="src\images&files\logo_dschang.jpg" alt="" />
-                        </div>
-                        <div className="project-description-part">    
-                            <h3 className="project-title">Project 1 Title</h3>
-                            <p className="project-description"> 
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="project-item">
-                        <div className="project-img-part">
-                            <img className="project-img" src="src\images&files\logo_dschang.jpg" alt="" />
-                        </div>
-                        <div className="project-description-part">    
-                            <h3 className="project-title">Project 1 Title</h3>
+                            <h3 className="project-title">Project 1 Title <span>2025</span></h3>
+                            <div className="project-skills">
+                                <span className="skill-tag">React</span>
+                                <span className="skill-tag">JavaScript</span>
+                                <span className="skill-tag">CSS</span>
+                            </div>
                             <p className="project-description"> 
                                 Brief description of the project, technologies used, and key features.
                                 Brief description of the project, technologies used, and key features.

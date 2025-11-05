@@ -9,7 +9,7 @@ const Skills = () => {
           <Navigation />
           <div className='body-part '>
             <Header />
-            <h1 className="text-center">Skills</h1>
+            <h1 className="text-center my-10">Skills</h1>
             <section id="skills" className='skills-container'>
               <div className="skill-item text-center">
                 <div className="skill-img-part">

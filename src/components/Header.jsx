@@ -2,9 +2,9 @@ import { FaLink } from 'react-icons/fa';
 
 const Header = () =>{
     return(
-        <header className="fixed top-0 left-0 w-full h-[20px] border-1 border-white flex items-center justify-between p-1 text-white">
+        <header className="header text-[min(3vw,10px)]">
             <FaLink />
-            <p className=''>NGASSA LIETCHE LANDRY / JAVASCRIPT FULL STACK DEVELOPER</p>
+            <p className=''>NGASSA LIETCHE LANDRY</p>
             <div></div>
         </header>
     )

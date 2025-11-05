@@ -5,14 +5,14 @@ import { FaArrowRight } from 'react-icons/fa';
 
 const Footer =()=>{
     return (
-        <footer className='fixed bottom-0 left-0 w-full h-[20px] flex justify-between items-center px-1 border-white border-1'>
+        <footer className='footer text-[min(3vw,10px)] '>
             <div className="point bg-white w-1 h-1 rounded-[50%]"></div>
-            <p>Based in Douala, Cameroon</p>
+            <p className='text-[min(3vw,10px)]'>Based in Douala, Cameroon</p>
             <div className='flex items-center gap-3'>
                 <div className="social-links flex items-center gap-1">
-                    <FaGithub />
-                    <FaLinkedin />
-                    <FaXTwitter />
+                    <a href=""><FaGithub /></a>
+                    <a href=""><FaLinkedin /></a>
+                    <a href=""><FaXTwitter /></a>
                 </div>
                 <button className='h-[16px] flex items-center gap-2 border-white border-1 px-0.5'>
                     let's work together
