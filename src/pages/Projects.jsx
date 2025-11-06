@@ -5,10 +5,12 @@ import Footer from "../components/Footer";
 
 const Projects = () => {
     return (
-        <div class="projects-page flex h-screen">
+        <div class="page">
+            <div className='absolute bottom-[-5px] left-[-5px] size-[300px] z-[-1] rounded-[50%] bg-radial from-[#e04f62] to-[#0a0a0a]'></div>
+            <div className='absolute top-[-5px] right-[-5px] size-[300px] z-[-1] rounded-[50%] bg-radial from-[#e04f62] to-[#0a0a0a]'></div>
             <Navigation />
             <div className="body-part">
-                <Header />
+                <Header name="text-[#e04f62]"/>
                 <h1 className="text-center my-10">Projects</h1>
                 <section id="projects" className="projects-container">
                     <div className="project-item">
@@ -69,7 +71,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </section>
-                <Footer />
+                <Footer bgdot='bg-[#e04f62]'/>
             </div>
         </div>
     );

@@ -3,13 +3,13 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { FaArrowRight } from 'react-icons/fa';
 
-const Footer =()=>{
+const Footer =({bgdot})=>{
     return (
         <footer className='footer text-[min(3vw,10px)] '>
-            <div className="point bg-white w-1 h-1 rounded-[50%]"></div>
+            <div className={`ml-1 w-1 h-1 rounded-[50%] ${bgdot}`}></div>
             <p className='text-[min(3vw,10px)]'>Based in Douala, Cameroon</p>
             <div className='flex items-center gap-3'>
-                <div className="social-links flex items-center gap-1">
+                <div className="flex items-center gap-1">
                     <a href=""><FaGithub /></a>
                     <a href=""><FaLinkedin /></a>
                     <a href=""><FaXTwitter /></a>

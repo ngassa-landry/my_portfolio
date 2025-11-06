@@ -4,13 +4,16 @@
 }
 
 body{
-    padding: 20px;
-    background-color: #868484;
+    background-color: #0f0f0f;
     color: #ffffff;
 }
 
 @layer components{
 
+    .page{
+        @apply h-screen w-screen py-[20px] pl-[21px] flex
+    }
+    
     .header{
         @apply fixed top-0 h-[20px] left-0 w-full border-1 border-white flex items-center justify-between p-1
     }

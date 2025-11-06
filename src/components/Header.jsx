@@ -1,13 +1,13 @@
 import { FaLink } from 'react-icons/fa';
 
-const Header = () =>{
-    return(
+const Header = ({ name }) => {
+    return (
         <header className="header text-[min(3vw,10px)]">
             <FaLink />
-            <p className=''>NGASSA LIETCHE LANDRY</p>
+            <p className=''>NGASSA <span className={`before:content-["</"] after:content-[">"] ${name}`}>LIETCHE</span> LANDRY</p>
             <div></div>
         </header>
-    )
+    );
 }
 
 export default Header;
