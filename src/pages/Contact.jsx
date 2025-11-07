@@ -5,10 +5,12 @@ import Navigation from '../components/Navigation';
 
 const Contact = () => {
     return (
-        <div className="contact-page flex h-screen">
+        <div className="page">
+            <div className='absolute bottom-[0px] left-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-contact) to-[#0a0a0a]'></div>
+            <div className='absolute top-[0px] right-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-contact) to-[#0a0a0a]'></div>
             <Navigation />
             <div className='body-part'>
-                <Header />
+                <Header name="text-(--color-contact)"/>
                 <section id="contact" className="container">
                     <h2>Contact Me</h2>
                     <form className="contact-form">
@@ -16,7 +18,7 @@ const Contact = () => {
                         <button type="submit" className="submit-button">Send Message</button>
                     </form>
                 </section>
-                <Footer />
+                <Footer bgdot='bg-(--color-contact)'/>
             </div>
         </div>
     );

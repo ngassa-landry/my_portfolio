@@ -6,11 +6,11 @@ import Footer from "../components/Footer";
 const Projects = () => {
     return (
         <div class="page">
-            <div className='absolute bottom-[-5px] left-[-5px] size-[300px] z-[-1] rounded-[50%] bg-radial from-[#e04f62] to-[#0a0a0a]'></div>
-            <div className='absolute top-[-5px] right-[-5px] size-[300px] z-[-1] rounded-[50%] bg-radial from-[#e04f62] to-[#0a0a0a]'></div>
+            <div className='absolute bottom-[0px] left-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-projects) to-[#0a0a0a]'></div>
+            <div className='absolute top-[0px] right-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-projects) to-[#0a0a0a]'></div>
             <Navigation />
             <div className="body-part">
-                <Header name="text-[#e04f62]"/>
+                <Header name="text-(--color-projects)"/>
                 <h1 className="text-center my-10">Projects</h1>
                 <section id="projects" className="projects-container">
                     <div className="project-item">
@@ -71,7 +71,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </section>
-                <Footer bgdot='bg-[#e04f62]'/>
+                <Footer bgdot='bg-(--color-projects)'/>
             </div>
         </div>
     );

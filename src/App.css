@@ -1,17 +1,49 @@
 @import "tailwindcss";
 
 @theme {
+    --color-home: #91ff87;
+    --color-about: #4c82ed;
+    --color-projects: #e04f62;
+    --color-skills: #e0b74f;
+    --color-contact: #855fed;
 }
 
 body{
     background-color: #0f0f0f;
     color: #ffffff;
+    font-family: "Outfit", sans-serif;
+}
+
+.project-description::-webkit-scrollbar{
+    width: 5px;
+}
+
+.project-description::-webkit-scrollbar-thumb{
+    background-color: var(--color-projects);
+    border-radius: 10px;
+}
+
+.project-description::-webkit-scrollbar-track{
+    background-color: rgba(4, 79, 98, 0.2);
+}
+
+.skill-description::-webkit-scrollbar{
+    width: 5px;
+}
+
+.skill-description::-webkit-scrollbar-thumb{
+    background-color: var(--color-skills);
+    border-radius: 10px;
+}
+
+.skill-description::-webkit-scrollbar-track{
+    background-color: rgba(4, 79, 98, 0.2);
 }
 
 @layer components{
 
     .page{
-        @apply h-screen w-screen py-[20px] pl-[21px] flex
+        @apply h-full w-full py-[20px] pl-[21px] mb-4 flex
     }
     
     .header{
@@ -43,7 +75,7 @@ body{
     }
 
     .project-item{
-        @apply flex border-black border-1 h-fit p-4 gap-4 items-center
+        @apply flex rounded-md border-white/20 border-1 h-fit p-4 gap-4 items-center
     } 
 
     .project-img-part{
@@ -55,15 +87,15 @@ body{
     }
 
     .project-title{
-        @apply font-bold text-center text-xl flex justify-between px-4
+        @apply font-bold text-center text-xl flex justify-between px-4 
     }
 
     .skill-tag{
-        @apply border-1 border-white rounded-xl p-1 text-[10px]
+        @apply  border-white/20 border-1 rounded-[10px] px-[5px] py-[3px] text-[10px]
     }
 
     .project-description{
-        @apply border-1 p-2 overflow-y-scroll max-h-2/4 h-20
+        @apply  rounded-md border-white/20 border-1 p-2 overflow-y-scroll max-h-2/4 h-20
     }
 
     .project-skills{
@@ -75,7 +107,7 @@ body{
     }
 
     .skill-item{
-        @apply flex flex-col border-black border-1 h-fit p-4 gap-4 items-center
+        @apply flex flex-col rounded-md border-white/20 border-1 h-fit p-4 gap-4 items-center
     } 
 
     .skill-img-part{
@@ -91,6 +123,6 @@ body{
     }
 
     .skill-description{
-        @apply border-1 p-2 overflow-y-scroll max-h-2/4 h-20
+        @apply rounded-md border-white/20 border-1 p-2 overflow-y-scroll max-h-2/4 h-20
     }
 }
