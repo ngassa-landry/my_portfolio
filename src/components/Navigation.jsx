@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation =()=>{
     return(
-        <nav className='fixed h-20px left-0 top-0 h-full p-1 border-1 backdrop-blur-[5px] border-[rgba(255,255,255,0.1)]'> 
+        <nav className='fixed h-20px left-0 top-0 h-full p-1 border-1 backdrop-blur-[5px] border-[rgba(255,255,255,0.1)] z-10'> 
             <ul className='text-[12px] h-full flex flex-col items-center justify-center gap-4'>
                 <li>
                     <NavLink to="/"><BiHomeSmile className='hover:text-(--color-home)'/></NavLink>

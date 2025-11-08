@@ -5,7 +5,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 const Footer =({bgdot})=>{
     return (
-        <footer className='footer text-[min(3vw,10px)]  backdrop-blur-[5px] border-[rgba(255,255,255,0.1)]'>
+        <footer className='footer text-[min(3vw,10px)] backdrop-blur-[5px] border-[rgba(255,255,255,0.1)] z-10'>
             <div className={`ml-1 w-1 h-1 rounded-[50%] ${bgdot}`}></div>
             <p className='text-[min(3vw,10px)]'>Based in Douala, Cameroon</p>
             <div className='flex items-center gap-3'>

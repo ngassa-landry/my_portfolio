@@ -1,7 +1,7 @@
 import Navigation from "../components/Navigation";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
+import Project from "../components/project-card";
 
 const Projects = () => {
     return (
@@ -13,63 +13,13 @@ const Projects = () => {
                 <Header name="text-(--color-projects)"/>
                 <h1 className="text-center my-10">Projects</h1>
                 <section id="projects" className="projects-container">
-                    <div className="project-item">
-                        <div className="project-img-part">
-                            <img className="project-img" src="src\images&files\logo_dschang.jpg" alt="" />
-                        </div>
-                        <div className="project-description-part">    
-                            <h3 className="project-title">Project 1 Title <span>2025</span></h3>
-                            <div className="project-skills">
-                                <span className="skill-tag">React</span>
-                                <span className="skill-tag">JavaScript</span>
-                                <span className="skill-tag">CSS</span>
-                            </div>
-                            <p className="project-description"> 
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="project-item">
-                        <div className="project-img-part">
-                            <img className="project-img" src="src\images&files\logo_dschang.jpg" alt="" />
-                        </div>
-                        <div className="project-description-part">    
-                            <h3 className="project-title">Project 1 Title <span>2025</span></h3>
-                            <div className="project-skills">
-                                <span className="skill-tag">React</span>
-                                <span className="skill-tag">JavaScript</span>
-                                <span className="skill-tag">CSS</span>
-                            </div>
-                            <p className="project-description"> 
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="project-item">
-                        <div className="project-img-part">
-                            <img className="project-img" src="src\images&files\logo_dschang.jpg" alt="" />
-                        </div>
-                        <div className="project-description-part">    
-                            <h3 className="project-title">Project 1 Title <span>2025</span></h3>
-                            <div className="project-skills">
-                                <span className="skill-tag">React</span>
-                                <span className="skill-tag">JavaScript</span>
-                                <span className="skill-tag">CSS</span>
-                            </div>
-                            <p className="project-description"> 
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                                Brief description of the project, technologies used, and key features.
-                            </p>
-                        </div>
-                    </div>
+                    <Project
+                        project_img="src\images&files\logo_dschang.jpg"
+                        project_title="Extension WordPress GuideTV"
+                        project_year="2022"
+                        project_description="This is a brief description of Project One. It showcases my skills in React and CSS."
+                        project_skills={['HTML', 'CSS', 'PHP', 'WordPress', 'MySQL']}
+                    />
                 </section>
                 <Footer bgdot='bg-(--color-projects)'/>
             </div>
