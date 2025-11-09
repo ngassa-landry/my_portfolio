@@ -53,7 +53,7 @@ body{
     }
 
     .page{
-        @apply h-full w-full py-[20px] pl-[21px] mb-4 flex
+        @apply h-full w-full pl-[21px] mb-4 flex
     }
     
     .header{
@@ -81,7 +81,7 @@ body{
     }
 
     .projects-container{
-        @apply h-[calc(100vh-40px)] grid grid-cols-2 gap-2 max-md:grid-cols-1 p-4
+        @apply h-[calc(100vh-40px)] grid grid-cols-2 gap-2 max-md:grid-cols-1 p-4 h-fit
     }
 
     .project-item{
@@ -113,11 +113,11 @@ body{
     }
 
     .skills-container{
-        @apply h-[calc(100vh-40px)] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4
+        @apply h-[calc(100vh-40px)] h-fit grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4
     }
 
     .skill-item{
-        @apply flex flex-col rounded-md border-white/20 border-1 h-fit p-4 gap-4 items-center
+        @apply flex flex-col text-center rounded-md border-white/20 border-1 h-fit p-4 gap-4 items-center
     } 
 
     .skill-img-part{

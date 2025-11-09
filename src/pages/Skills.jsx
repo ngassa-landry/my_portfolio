@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
-
+import Skill from '../components/Skill-card';
 
 const Skills = () => {
     return(
@@ -13,20 +13,16 @@ const Skills = () => {
             <Header name='text-(--color-skills)'/>
             <h1 className="text-center my-10">Skills</h1>
             <section id="skills" className='skills-container'>
-              <div className="skill-item text-center">
-                <div className="skill-img-part">
-                    <img className="skill-img" src="src\images&files\logo_dschang.jpg" alt="" />
-                </div>
-                <div className="skill-description-part">    
-                    <h3 className="skill-title">Skill 1 Title</h3>
-                    <p className="skill-description"> 
-                        Brief description of the skill, technologies used, and key features.
-                        Brief description of the skill, technologies used, and key features.
-                        Brief description of the skill, technologies used, and key features.
-                        Brief description of the skill, technologies used, and key features.
-                    </p>
-                </div>
-              </div>
+              <Skill
+                skill_img="src\images&files\logo_dschang.jpg"
+                skill_title='JavaScript'
+                skill_description="Voici l'une des compétences que je maitrise"
+              />
+              <Skill
+                skill_img="src\images&files\logo_dschang.jpg"
+                skill_title='JavaScript'
+                skill_description="Voici l'une des compétences que je maitrise"
+              />
             </section>
             <Footer bgdot='bg-(--color-skills)'/>
           </div>

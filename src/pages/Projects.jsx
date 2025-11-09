@@ -20,6 +20,13 @@ const Projects = () => {
                         project_description="This is a brief description of Project One. It showcases my skills in React and CSS."
                         project_skills={['HTML', 'CSS', 'PHP', 'WordPress', 'MySQL']}
                     />
+                    <Project
+                        project_img="src\images&files\logo_dschang.jpg"
+                        project_title="Extension WordPress GuideTV"
+                        project_year="2022"
+                        project_description="This is a brief description of Project One. It showcases my skills in React and CSS."
+                        project_skills={['HTML', 'CSS', 'PHP', 'WordPress', 'MySQL']}
+                    />
                 </section>
                 <Footer bgdot='bg-(--color-projects)'/>
             </div>

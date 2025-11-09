@@ -11,9 +11,9 @@ const About = () => {
             <div className='absolute bottom-[0px] left-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-about) to-[#0a0a0a]'></div>
             <div className='absolute top-[0px] right-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-about) to-[#0a0a0a]'></div>
             <Navigation />
-            <div className='body-part py-50'>
+            <div className='body-part'>
                 <Header name="text-(--color-about)"/>
-                <section id="about"  className="container">
+                <section id="about"  className="container pt-70 sm:pt-50">
                     <div className="relative sm:right-20 window w-[min(50%,500px)]">
                         <div className="action-bar">
                             <p>about-me</p>
