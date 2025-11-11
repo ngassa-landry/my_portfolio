@@ -11,9 +11,9 @@ const Home = () => {
       <Navigation />
       <div className='body-part'>
         <Header name='text-(--color-home)'/>
-        <section id="home" className='container '>
+        <section id="home" className='container h-[calc(100vh-40px)]'>
           <p className="text-[min(2vw,10px)]">HOME</p>
-          <h1 className='text-[min(15vw,45px)] leading-12'>Hi, I'm NGASSA, a <span className='text-[#91ff87]'>JAVASCRIPT</span> fullstack developer</h1>
+          <h1 className='text-[min(15vw,45px)] leading-12'>Hi, I'm NGASSA LANDRY, a <span className='text-[#91ff87]'>JAVASCRIPT</span> fullstack developer</h1>
           <p className="text-[min(3vw,11px)] font-light">
             Lorem ipsum dolor sit amet consectetur adipisicing 
             elit. Nihil quaerat repellendus cumque in reiciendis 

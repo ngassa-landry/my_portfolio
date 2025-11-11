@@ -11,7 +11,7 @@ const Contact = () => {
             <Navigation />
             <div className='body-part'>
                 <Header name="text-(--color-contact)"/>
-                <section id="contact" className="container">
+                <section id="contact" className="container h-[calc(100vh-40px)]">
                     <h2>Contact Me</h2>
                     <form className="contact-form">
                         

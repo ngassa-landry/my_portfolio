@@ -6,6 +6,7 @@
     --color-projects: #e04f62;
     --color-skills: #e0b74f;
     --color-contact: #855fed;
+    --window-border: #7d7d7d;
 }
 
 body{
@@ -65,11 +66,11 @@ body{
     }
 
     .action-bar{
-        @apply w-full flex items-center justify-between px-1 bg-[#111214] text-white p-1 border-white rounded-t-[3px]
+        @apply text-sm w-full flex items-center justify-between px-1 bg-[#111214] border-b-1 backdrop-blur-2xl text-[#4d4f55] p-1 border-(--window-border) rounded-t-[3px]
     }
 
     .window{
-        @apply w-fit h-fit bg-[#1E1E1E] rounded-[5px] border border-white
+        @apply w-fit h-fit bg-[#1e1e1e9c] backdrop-blur-2xl rounded-[5px] border border-(--window-border)
     }
 
     .body-part{
@@ -77,7 +78,7 @@ body{
     }
 
     .container{
-        @apply h-[calc(100vh-40px)] flex flex-col items-center justify-center text-center gap-4 px-4
+        @apply flex flex-col items-center justify-center text-center gap-4 px-4
     }
 
     .projects-container{
@@ -97,7 +98,7 @@ body{
     }
 
     .project-title{
-        @apply font-bold text-center text-[15px] flex justify-between px-1 
+        @apply font-extralight text-center text-[15px] flex justify-between px-1 
     }
 
     .skill-tag{
@@ -117,7 +118,7 @@ body{
     }
 
     .skill-item{
-        @apply flex flex-col text-center rounded-md border-white/20 border-1 h-fit p-4 gap-4 items-center
+        @apply backdrop-blur-md flex flex-col text-center rounded-md border-white/20 border-1 h-fit p-4 gap-4 items-center
     } 
 
     .skill-img-part{
@@ -132,7 +133,15 @@ body{
         @apply font-bold text-center text-xl
     }
 
-    .skill-description{
-        @apply rounded-md border-white/20 border-1 p-2 overflow-y-scroll max-h-2/4 h-20
+    .skill-level{
+        @apply px-10 pt-2 flex justify-center gap-2
+    }
+
+    .skill-point{
+        @apply size-2 rounded-lg bg-(--color-skills)
+    }
+
+    .skill-blank-point{
+        @apply size-2 rounded-lg bg-[#7d7d7d33]
     }
 }

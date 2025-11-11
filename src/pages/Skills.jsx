@@ -15,13 +15,13 @@ const Skills = () => {
             <section id="skills" className='skills-container'>
               <Skill
                 skill_img="src\images&files\logo_dschang.jpg"
-                skill_title='JavaScript'
-                skill_description="Voici l'une des compétences que je maitrise"
+                skill_title='HTML/CSS'
+                skill_level={4}
               />
               <Skill
                 skill_img="src\images&files\logo_dschang.jpg"
                 skill_title='JavaScript'
-                skill_description="Voici l'une des compétences que je maitrise"
+                skill_level={3}
               />
             </section>
             <Footer bgdot='bg-(--color-skills)'/>
