@@ -6,8 +6,10 @@ import Navigation from '../components/Navigation';
 const Home = () => {
   return (
     <div className='page'>
-      <div className='absolute bottom-[0px] left-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-home) to-[#0a0a0a]'></div>
-      <div className='absolute top-[0px] right-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-home) to-[#0a0a0a]'></div>
+      <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
+        <div className='absolute bottom-[0px] left-[0px] size-[300px] z-[-1] rounded-[50%] bg-[radial-gradient(circle,_var(--color-home)_0%_1%,_#304d2c_50%,_#0f0f0f_70%_100%)] opacity-65'></div>
+        <div className='absolute top-[0px] right-[0px] size-[300px] z-[-1] rounded-[50%] bg-[radial-gradient(circle,_var(--color-home)_0%_1%,_#304d2c_50%,_#0f0f0f_70%_100%)] opacity-65'></div>
+      </div>
       <Navigation />
       <div className='body-part'>
         <Header name='text-(--color-home)'/>

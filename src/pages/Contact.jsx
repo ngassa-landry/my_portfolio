@@ -6,8 +6,8 @@ import Navigation from '../components/Navigation';
 const Contact = () => {
     return (
         <div className="page">
-            <div className='absolute bottom-[0px] left-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-contact) to-[#0a0a0a]'></div>
-            <div className='absolute top-[0px] right-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-contact) to-[#0a0a0a]'></div>
+            <div className='absolute bottom-[0px] left-[0px] size-[300px] z-[-1] rounded-[50%] bg-[radial-gradient(circle,_var(--color-contact)_0%_1%,_#2c244a_50%,_#0f0f0f_70%_100%)] opacity-65'></div>
+            <div className='absolute top-[0px] right-[0px] size-[300px] z-[-1] rounded-[50%] bg-[radial-gradient(circle,_var(--color-contact)_0%_1%,_#2c244a_50%,_#0f0f0f_70%_100%)] opacity-65'></div>
             <Navigation />
             <div className='body-part'>
                 <Header name="text-(--color-contact)"/>

@@ -2,7 +2,7 @@ const Project = ({ project_img, project_title, project_year, project_skills, pro
     return(
         <div className="project-item">
             <div className="project-img-part">
-                <img className="project-img" src={project_img} alt="" />
+                <img className="project-img rounded-[2px]" src={project_img} alt="" />
             </div>
             <div className="project-description-part">    
                 <h3 className="project-title">{project_title} <span>{project_year}</span></h3>

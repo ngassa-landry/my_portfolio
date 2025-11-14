@@ -6,8 +6,10 @@ import Project from "../components/project-card";
 const Projects = () => {
     return (
         <div class="page">
-            <div className='absolute bottom-[0px] left-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-projects) to-[#0a0a0a]'></div>
-            <div className='absolute top-[0px] right-[0px] size-[300px] z-[-1] rounded-[50%] bg-radial from-(--color-projects) to-[#0a0a0a]'></div>
+            <div className="fixed inset-0 overflow-hidden pointer-events-none">
+                <div className='absolute bottom-[0px] left-[0px] size-[300px] z-[-1] rounded-[50%] bg-[radial-gradient(circle,_var(--color-projects)_0%_1%,_#471f26_50%,_#0f0f0f_70%_100%)] opacity-65'></div>
+                <div className='absolute top-[0px] right-[0px] size-[300px] z-[-1] rounded-[50%] bg-[radial-gradient(circle,_var(--color-projects)_0%_1%,_#471f26_50%,_#0f0f0f_70%_100%)] opacity-65'></div>
+            </div>
             <Navigation />
             <div className="body-part">
                 <Header name="text-(--color-projects)"/>
